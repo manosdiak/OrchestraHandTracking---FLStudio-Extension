@@ -1,8 +1,12 @@
 # OrchestraHandTracking---FLStudio-Extension
 Hand tracking extension for FLStudio. It allows the user to play notes from different keys, different organs, in different volumes.
-**Guide**
+
+GUIDE
+
 It functions through your laptop's/pc's camera. With your right hand, you can change the volume (by moving it vertically) and instruments (by moving it horizontally). The preset has 6 instruments, but you can change that in the Configuration section to your liking. With your left hand, you can play different notes by weaving it horizontally and you can change keys by moving it vertically.
-**Installation**
+
+INSTALLATION
+
 1. Download the code.
 2. You'll need to download mediapipe. Paste this to your command prompt "pip install opencv-python mediapipe mido python-rtmidi".
 3. Go to the following URL: https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task. Take the TASK file that will be downloaded and drop it to the code's file.
